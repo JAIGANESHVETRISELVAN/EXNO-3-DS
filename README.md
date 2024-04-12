@@ -11,6 +11,8 @@ STEP 4:Apply Feature Transformation for the feature in the data set.
 STEP 5:Save the data to the file.
 
 # FEATURE ENCODING:
+![Screenshot (1)](https://github.com/JAIGANESHVETRISELVAN/EXNO-3-DS/assets/133752156/2cb40dd8-1ac2-49e2-9ba8-4c7df007c3b4)
+
 1. Ordinal Encoding
 An ordinal encoding involves mapping each unique label to an integer value. This type of encoding is really only appropriate if there is a known relationship between the categories. This relationship does exist for some of the variables in our dataset, and ideally, this should be harnessed when preparing the data.
 2. Label Encoding
