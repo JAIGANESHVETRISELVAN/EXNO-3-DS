@@ -35,6 +35,9 @@ We use this categorical data encoding technique when the features are nominal(do
 NAME :JAIGANESH V
 REG NO : 212221040063
 ```
+     import pandas as pd
+     df=pd.read_csv("/content/Encoding Data.csv")
+     df
 # RESULT:
        # INCLUDE YOUR RESULT HERE
 
