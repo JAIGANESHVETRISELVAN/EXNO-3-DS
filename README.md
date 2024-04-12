@@ -42,25 +42,7 @@ REG NO : 212221040063
      df=pd.read_csv("/content/Encoding Data.csv")
      df
 ```
-     ![316296378-eca0e23d-6ea3-4685-ad3e-3a3c688afce4](https://github.com/JAIGANESHVETRISELVAN/EXNO-3-DS/assets/133752156/c76675dd-0efc-4878-b9b4-6fc7b9e4ab96)
-     ![Screenshot (1)](https://github.com/JAIGANESHVETRISELVAN/EXNO-3-DS/assets/133752156/71598bcd-0a42-4fcf-8e7c-078f90f39377)
-```
-
-  from sklearn.preprocessing import LabelEncoder,OrdinalEncoder
-  pm=['Hot','Warm','Cold']
-  e1=OrdinalEncoder(categories=[pm])
-  e1.fit_transform(df[["ord_2"]])
-
-  ![316296336-6f0fce59-7852-489d-a76f-db5988a45a3b](https://github.com/JAIGANESHVETRISELVAN/EXNO-3-DS/assets/133752156/9323e3d4-dc14-4402-ab8b-c4d59d845cc7)
-
-    df['bo2']=e1.fit_transform(df[["ord_2"]])
-    df
-    ![316295056-84e9360b-9728-444d-bbe3-f7480e9633f6](https://github.com/JAIGANESHVETRISELVAN/EXNO-3-DS/assets/133752156/57714ba6-9382-4036-8ecf-cf74843082c5)
-    df['bo2']=e1.fit_transform(df[["ord_2"]])
-    df
-    ![316295116-addbdb92-ff8a-41f3-af9e-bd97ac6800a2](https://github.com/JAIGANESHVETRISELVAN/EXNO-3-DS/assets/133752156/e658ae02-7841-4e7f-836f-e7f4f61b1466)
-
-```
+![316296336-6f0fce59-7852-489d-a76f-db5988a45a3b](https://github.com/JAIGANESHVETRISELVAN/EXNO-3-DS/assets/133752156/ac580d98-5609-44bf-90aa-855a2f98d29b)
 
 
 # RESULT:
