@@ -35,11 +35,13 @@ We use this categorical data encoding technique when the features are nominal(do
 NAME :JAIGANESH V
 REG NO : 212221040063
 ```
+```
      import pandas as pd
      df=pd.read_csv("/content/Encoding Data.csv")
      df
+```
      ![316296378-eca0e23d-6ea3-4685-ad3e-3a3c688afce4](https://github.com/JAIGANESHVETRISELVAN/EXNO-3-DS/assets/133752156/c76675dd-0efc-4878-b9b4-6fc7b9e4ab96)
-
+```
   from sklearn.preprocessing import LabelEncoder,OrdinalEncoder
   pm=['Hot','Warm','Cold']
   e1=OrdinalEncoder(categories=[pm])
@@ -54,7 +56,7 @@ REG NO : 212221040063
     df
     ![316295116-addbdb92-ff8a-41f3-af9e-bd97ac6800a2](https://github.com/JAIGANESHVETRISELVAN/EXNO-3-DS/assets/133752156/e658ae02-7841-4e7f-836f-e7f4f61b1466)
 
-
+```
 
 
 # RESULT:
