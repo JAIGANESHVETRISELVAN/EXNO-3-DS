@@ -41,7 +41,9 @@ REG NO : 212221040063
      df
 ```
      ![316296378-eca0e23d-6ea3-4685-ad3e-3a3c688afce4](https://github.com/JAIGANESHVETRISELVAN/EXNO-3-DS/assets/133752156/c76675dd-0efc-4878-b9b4-6fc7b9e4ab96)
+     ![Screenshot (1)](https://github.com/JAIGANESHVETRISELVAN/EXNO-3-DS/assets/133752156/71598bcd-0a42-4fcf-8e7c-078f90f39377)
 ```
+
   from sklearn.preprocessing import LabelEncoder,OrdinalEncoder
   pm=['Hot','Warm','Cold']
   e1=OrdinalEncoder(categories=[pm])
